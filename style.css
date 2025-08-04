@@ -90,6 +90,7 @@ video{
 .p2{
     font-size: 13px;
     margin-top:10px;
+    color:rgb(104, 93, 145) ;
 }
 .main2{
     margin-left: 50px;
@@ -139,4 +140,11 @@ video{
     font-size: 20px;
     color:  rgb(35, 35, 35);
     gap:1px;
+}
+.main33{
+    column-count: 2;
+}
+.main331{
+   
+    gap: 20px;
 }
