@@ -263,6 +263,7 @@ margin-left:60px ;
 .btn2:hover{
     cursor: pointer;
     background-color:rgb(144, 144, 175) ;
+    color: black;
 }
 
 
