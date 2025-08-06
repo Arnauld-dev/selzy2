@@ -304,6 +304,13 @@ margin-left:60px ;
 
 
 }
+.main35 h1{
+      margin-bottom:50px;
+}
+.main35 a{
+    color: black;
+    
+}
 
 .main51{
     background-color: white;
@@ -348,4 +355,61 @@ margin-left:60px ;
     margin-top:90px ;
     text-align: center;
     margin-bottom: 90px;
+}
+
+.animation{
+    height: 100%;
+    margin-bottom: 50px;
+}
+.animation1,
+.animation2{
+    
+    gap: 50px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    left: 100%;
+    
+    
+}
+
+.animation1{
+    display: flex;
+    justify-content: space-around;
+    animation: scroll-horizontal 50s linear infinite;
+}
+.animation2{
+    display: flex;
+    justify-content: space-around;
+    animation: scroll-horizontal 50s linear infinite;
+    animation-delay:23s;
+}
+
+@keyframes scroll-horizontal{
+    0%{
+        left: 100%;
+    }
+    100%{
+        left: -100%;
+    }
+}
+.animation1:hover,.animation1:hover ~.animation2 {
+    -moz-animation-play-state: paused;
+    -webkit-animation-play-state: paused ;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+.animation2:hover {
+    -moz-animation-play-state: paused;
+    -webkit-animation-play-state: paused ;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+.main6{
+    padding: 90px;
+    margin-top:200px;
+    color: white;
+    background-image: url(360_F_240635575_EJifwRAbKsVTDnA3QE0bCsWG5TLhUNEZ.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
